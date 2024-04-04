@@ -1,0 +1,7 @@
+const path = require('path');
+const dbPath = 'dist/core/database';
+module.exports = {
+  'seeders-path': path.resolve(dbPath, 'seeders'),
+  'migrations-path': path.resolve(dbPath, 'migrations'),
+  config: path.resolve(dbPath, 'database.config.js'),
+};
