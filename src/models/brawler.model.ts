@@ -20,7 +20,7 @@ export class Brawler extends Model<Brawler> {
   name: string;
   
   @Column({
-    type: DataType.STRING,
+    type: DataType.TEXT,
     allowNull: false,
   })
   description: string;
